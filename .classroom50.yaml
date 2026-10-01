@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "mpt"
+assignment: "bash-basics"
+owner:
+  username: "grommoott"
+  id: 118693279
+  accepted_at: "2026-10-01T14:28:57Z"
+source:
+  owner: "nsu-syspro"
+  owner_id: 115493553
+  repo: "mpt-bash-basics"
+  branch: "main"
