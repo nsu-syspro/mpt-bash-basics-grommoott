@@ -1,0 +1,15 @@
+#! /bin/bash
+
+if [ $# -lt 2 ]; then
+    echo "Provide suffix and list of files"
+    exit
+fi
+
+suffix=$1
+shift
+
+for pattern in "$@"; do
+    for file in "$(ls -d "$pattern")"; do
+        mv "$file" "$file$suffix"
+    done
+done
